@@ -6,7 +6,6 @@ check_count = []
 n = 2
 def count_beautiful_n_digit_number():
     if len(l) == n:
-        print()
         check_count.append(1)
         return
     elif len(l) > n:
