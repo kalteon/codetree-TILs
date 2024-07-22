@@ -13,8 +13,8 @@ def maximumize_explosion_position():
     if not boom_positoin:
         sum_v = 0
         for i in range(n):
-            for j in l[i]:
-                if l[i][j] > 0:
+            for v in l[i]:
+                if v > 0:
                     sum_v += 1
         sum_list.append(sum_v)
         return
